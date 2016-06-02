@@ -199,8 +199,8 @@ def naivebayes_mllib():
 def naive_bayes_basic():
 
     #print ("Successfully imported Spark Modules")
-    AWS_ACCESS_KEY_ID = "AKIAJ4TL25ORBKDDWH2A"
-    AWS_SECRET_ACCESS_KEY = "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"
+    AWS_ACCESS_KEY_ID = "####################"
+    AWS_SECRET_ACCESS_KEY = "#####################################"
 
     sc._jsc.hadoopConfiguration().set("fs.s3n.awsAccessKeyId", AWS_ACCESS_KEY_ID)
     sc._jsc.hadoopConfiguration().set("fs.s3n.awsSecretAccessKey", AWS_SECRET_ACCESS_KEY)
