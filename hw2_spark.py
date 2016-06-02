@@ -142,8 +142,8 @@ def func_question5():
 
 ###Naive Bayes with ML lib
 def naivebayes_mllib():
-    AWS_ACCESS_KEY_ID = "AKIAJ4TL25ORBKDDWH2A"
-    AWS_SECRET_ACCESS_KEY = "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"
+    AWS_ACCESS_KEY_ID = "###########S"
+    AWS_SECRET_ACCESS_KEY = "####################S"
 
     sc._jsc.hadoopConfiguration().set("fs.s3n.awsAccessKeyId", AWS_ACCESS_KEY_ID)
     sc._jsc.hadoopConfiguration().set("fs.s3n.awsSecretAccessKey", AWS_SECRET_ACCESS_KEY)
